@@ -11,7 +11,7 @@ Software and database engineer based in Türkiye. I work mostly with **C#, Pytho
 **Open pull requests**
 - [duckdb/duckdb#28853](https://github.com/duckdb/duckdb/pull/28853): allow concurrent reads of active log files on Windows in `BufferedFileWriter`
 - [duckdb/duckdb#28837](https://github.com/duckdb/duckdb/pull/28837): bound snapshots below WAL-skipping commits until checkpoint completes
-- [duckdb/duckdb#28554](https://github.com/duckdb/duckdb/pull/28554): only recurse into nested types in `MinMaxUsesCollation` when children require collation
+- [duckdb/duckdb#28554](https://github.com/duckdb/duckdb/pull/28554): avoid copying `BoundSubqueryExpression` in collated `min`/`max` binding
 - [ClickHouse/ClickHouse#129979](https://github.com/ClickHouse/ClickHouse/pull/129979): fix signed `Int64` overflow when computing fraction in `roundTimeConstant`
 - [temporalio/api-go#326](https://github.com/temporalio/api-go/pull/326): skip visiting compute config payloads in `VisitPayloads`
 - [onyx-dot-app/onyx#17040](https://github.com/onyx-dot-app/onyx/pull/17040): add Jira Service Management connector
