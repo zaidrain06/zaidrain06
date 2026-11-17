@@ -1,4 +1,4 @@
-## Hi, I'm Ömer 👋
+## Hi, I'm Ömer Said Yağmur, you can call me Said 👋
 
 Software and database engineer based in Türkiye. I work mostly with **C#, Python, SQL, C++ and Oracle**, and I like digging into database engines, storage internals, and data infrastructure.
 
@@ -21,4 +21,5 @@ Software and database engineer based in Türkiye. I work mostly with **C#, Pytho
 Query engines, analytical databases, storage/WAL internals, and developer tooling.
 
 ### Contact
-Available for async B2B engineering contracts and technical systems work. Open an issue or reach out through GitHub.
+- **Email:** saidyagmur@gmx.com
+- Available for **async B2B engineering contracts** and technical systems work. You can also open an issue or reach out through GitHub.
