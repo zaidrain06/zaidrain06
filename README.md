@@ -21,4 +21,4 @@ Software and database engineer based in Türkiye. I work mostly with **C#, Pytho
 Query engines, analytical databases, storage/WAL internals, and developer tooling.
 
 ### Contact
-Open an issue or reach out through GitHub.
+Available for async B2B engineering contracts and technical systems work. Open an issue or reach out through GitHub.
