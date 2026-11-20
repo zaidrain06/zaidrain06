@@ -19,8 +19,6 @@ Software and database engineer based in Türkiye. I work mostly with **C#, Pytho
 - [temporalio/api-go#326](https://github.com/temporalio/api-go/pull/326): skip visiting compute config payloads in `VisitPayloads`
 - [onyx-dot-app/onyx#17040](https://github.com/onyx-dot-app/onyx/pull/17040): add Jira Service Management connector
 - [serpapi/nokolexbor#53](https://github.com/serpapi/nokolexbor/pull/53): cache compiled CSS selector lists in a per-thread LRU cache
-- [galaxy-io/filament#745](https://github.com/galaxy-io/filament/pull/745): fix HTTP timestamp parser reading epoch milliseconds before Sep 2001 as seconds
-- [galaxy-io/filament#746](https://github.com/galaxy-io/filament/pull/746): support MySQL `TIME` values beyond 24 hours and negative durations
 - [temporalio/sdk-go#2910](https://github.com/temporalio/sdk-go/pull/2910): include activity ID in local activity panic stack trace logging
 - [pyinfra-dev/pyinfra#2091](https://github.com/pyinfra-dev/pyinfra/pull/2091): support multi-path `Include` directives in SSH config parser
 - [basicmachines-co/basic-memory#2135](https://github.com/basicmachines-co/basic-memory/pull/2135): slice PostgreSQL full-text search chunk inserts into bounded JSONB batches
