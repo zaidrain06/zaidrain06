@@ -32,3 +32,4 @@ Query engines, analytical databases, storage/WAL internals, and developer toolin
 ### Contact
 - **Email:** saidyagmur@gmx.com
 - Available for **async B2B engineering contracts** and technical systems work. You can also open an issue or reach out through GitHub.
+- [`mautic/mautic#18296`](https://github.com/mautic/mautic/pull/18296) — Preserve configured global `Reply-To` for ownerless contacts in queued batch emails and prevent batch merging with owned contacts sharing a fallback sender
