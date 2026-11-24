@@ -13,7 +13,7 @@ Software and database engineer based in Türkiye. I work mostly with **C#, Pytho
 
 **Open pull requests**
 - [galaxy-io/filament#785](https://github.com/galaxy-io/filament/pull/785): Twilio SendGrid v3 source connector (marketing lists, contacts, Single Sends, templates, incremental Unix-second suppression streams, and daily delivery stats)
-- [galaxy-io/filament#714](https://github.com/galaxy-io/filament/pull/714): native Go Apple App Store Connect source connector (`ES256` JWT auth, JSON:API pagination, streaming gzipped TSV parser for Analytics & Sales reports)
+- [galaxy-io/filament#714](https://github.com/galaxy-io/filament/pull/714): native Go Apple App Store Connect source connector (`ES256` JWT auth, JSON:API pagination, in-memory gzipped TSV parser, restated event-date dedup & segment URL refresh for Analytics & Sales reports)
 - [mautic/mautic#18296](https://github.com/mautic/mautic/pull/18296): preserve configured global `Reply-To` for ownerless contacts in queued batch emails and prevent batch merging with owned contacts sharing a fallback sender
 - [duckdb/duckdb#28853](https://github.com/duckdb/duckdb/pull/28853): allow concurrent reads of active log files on Windows in `BufferedFileWriter`
 - [duckdb/duckdb#28837](https://github.com/duckdb/duckdb/pull/28837): bound snapshots below WAL-skipping commits until checkpoint completes
