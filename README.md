@@ -13,6 +13,7 @@ Software and database engineer based in Türkiye. I work mostly with **C#, Pytho
 - [vmangos/core#3606](https://github.com/vmangos/core/pull/3606): fix C++ compilation with OpenSSL 4.0+ where `OPENSSL_atexit` was removed
 
 **Open pull requests**
+- [`OpenCTI-Platform/connectors#8633`](https://github.com/OpenCTI-Platform/connectors/pull/8633) — Bound Shodan indicator search host enrichment and STIX bundle size for playbooks (`#8623`)
 - [ConduitIO/conduit#3373](https://github.com/ConduitIO/conduit/pull/3373): restore in-memory `processor.Service` instance when `ProcessorOrchestrator.Delete` rolls back a failed DB transaction
 - [authzed/spicedb#3529](https://github.com/authzed/spicedb/pull/3529): use slash-separated `fs.FS` paths for composable schema subdirectory imports on Windows
 - [galaxy-io/filament#785](https://github.com/galaxy-io/filament/pull/785): Twilio SendGrid v3 source connector (marketing lists, contacts, Single Sends, templates, incremental Unix-second suppression streams, and daily delivery stats)
