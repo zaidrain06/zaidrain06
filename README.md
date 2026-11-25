@@ -5,7 +5,7 @@ Software and database engineer based in Türkiye. I work mostly with **C#, Pytho
 ### Open source
 
 **Merged & Credited**
-- [open-telemetry/opentelemetry-collector-contrib#53463](https://github.com/open-telemetry/opentelemetry-collector-contrib/pull/53463): fix OTTL string-indexing parser ambiguity on map paths and string literals (`pkg/ottl`)
+- [open-telemetry/opentelemetry-collector-contrib#53463](https://github.com/open-telemetry/opentelemetry-collector-contrib/pull/53463): fix concurrent map read/write data race in `StandardFunctionGetter.Get` (`pkg/ottl`)
 - [duckdb/duckdb#28563](https://github.com/duckdb/duckdb/pull/28563): fix for `contains(list_column, '')` returning true for lists that do not contain the value
 - [repowise-dev/repowise#5995](https://github.com/repowise-dev/repowise/pull/5995): validate Git repository root before diffing in `repowise impacted-tests`
 - [pydantic/pydantic-ai#13272](https://github.com/pydantic/pydantic-ai/pull/13272): credited for the store-side fix ([#12826](https://github.com/pydantic/pydantic-ai/pull/12826)) preventing `ConversationStore.save` from re-storing serialized output-tool history as a new branch every turn
