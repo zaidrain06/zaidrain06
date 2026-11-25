@@ -5,6 +5,7 @@ Software and database engineer based in Türkiye. I work mostly with **C#, Pytho
 ### Open source
 
 **Merged & Credited**
+- [open-telemetry/opentelemetry-collector-contrib#53463](https://github.com/open-telemetry/opentelemetry-collector-contrib/pull/53463): fix OTTL string-indexing parser ambiguity on map paths and string literals (`pkg/ottl`)
 - [duckdb/duckdb#28563](https://github.com/duckdb/duckdb/pull/28563): fix for `contains(list_column, '')` returning true for lists that do not contain the value
 - [repowise-dev/repowise#5995](https://github.com/repowise-dev/repowise/pull/5995): validate Git repository root before diffing in `repowise impacted-tests`
 - [pydantic/pydantic-ai#13272](https://github.com/pydantic/pydantic-ai/pull/13272): credited for the store-side fix ([#12826](https://github.com/pydantic/pydantic-ai/pull/12826)) preventing `ConversationStore.save` from re-storing serialized output-tool history as a new branch every turn
@@ -12,6 +13,8 @@ Software and database engineer based in Türkiye. I work mostly with **C#, Pytho
 - [vmangos/core#3606](https://github.com/vmangos/core/pull/3606): fix C++ compilation with OpenSSL 4.0+ where `OPENSSL_atexit` was removed
 
 **Open pull requests**
+- [ConduitIO/conduit#3373](https://github.com/ConduitIO/conduit/pull/3373): restore in-memory `processor.Service` instance when `ProcessorOrchestrator.Delete` rolls back a failed DB transaction
+- [authzed/spicedb#3529](https://github.com/authzed/spicedb/pull/3529): use slash-separated `fs.FS` paths for composable schema subdirectory imports on Windows
 - [galaxy-io/filament#785](https://github.com/galaxy-io/filament/pull/785): Twilio SendGrid v3 source connector (marketing lists, contacts, Single Sends, templates, incremental Unix-second suppression streams, and daily delivery stats)
 - [galaxy-io/filament#714](https://github.com/galaxy-io/filament/pull/714): native Go Apple App Store Connect source connector (`ES256` JWT auth, JSON:API pagination, in-memory gzipped TSV parser, restated event-date dedup & segment URL refresh for Analytics & Sales reports)
 - [mautic/mautic#18296](https://github.com/mautic/mautic/pull/18296): preserve configured global `Reply-To` for ownerless contacts in queued batch emails and prevent batch merging with owned contacts sharing a fallback sender
