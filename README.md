@@ -5,6 +5,7 @@ Software and database engineer based in Türkiye. I work mostly with **C#, Pytho
 ### Open source
 
 **Merged & Credited**
+- [ConduitIO/conduit#3373](https://github.com/ConduitIO/conduit/pull/3373): restore deleted `processor.Service` instance on failed DB transaction rollback without re-dispensing plugins or panicking discarded transactions
 - [open-telemetry/opentelemetry-collector-contrib#53463](https://github.com/open-telemetry/opentelemetry-collector-contrib/pull/53463): fix concurrent map read/write data race in `StandardFunctionGetter.Get` (`pkg/ottl`)
 - [duckdb/duckdb#28563](https://github.com/duckdb/duckdb/pull/28563): fix for `contains(list_column, '')` returning true for lists that do not contain the value
 - [repowise-dev/repowise#5995](https://github.com/repowise-dev/repowise/pull/5995): validate Git repository root before diffing in `repowise impacted-tests`
@@ -16,7 +17,6 @@ Software and database engineer based in Türkiye. I work mostly with **C#, Pytho
 - [projectcapsule/capsule#2325](https://github.com/projectcapsule/capsule/pull/2325): key `GlobalTenantResource` generator origins per target occurrence and migrate legacy positional SSA field managers in place
 - [OpenCTI-Platform/connectors#8633](https://github.com/OpenCTI-Platform/connectors/pull/8633): bound Shodan indicator search host enrichment and STIX bundle size for playbooks
 - [restatedev/restate#6052](https://github.com/restatedev/restate/pull/6052): prevent backward clock steps across restarts from holding yielded or ASAP virtual-queue invocations
-- [ConduitIO/conduit#3373](https://github.com/ConduitIO/conduit/pull/3373): restore in-memory `processor.Service` instance when `ProcessorOrchestrator.Delete` rolls back a failed DB transaction
 - [authzed/spicedb#3529](https://github.com/authzed/spicedb/pull/3529): use slash-separated `fs.FS` paths for composable schema subdirectory imports on Windows
 - [galaxy-io/filament#785](https://github.com/galaxy-io/filament/pull/785): Twilio SendGrid v3 source connector (marketing lists, contacts, Single Sends, templates, incremental Unix-second suppression streams, and daily delivery stats)
 - [galaxy-io/filament#714](https://github.com/galaxy-io/filament/pull/714): native Go Apple App Store Connect source connector (`ES256` JWT auth, JSON:API pagination, in-memory gzipped TSV parser, restated event-date dedup & segment URL refresh for Analytics & Sales reports)
