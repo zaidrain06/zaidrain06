@@ -14,7 +14,6 @@ Software and database engineer based in Türkiye. I work mostly with **C#, Pytho
 - [vmangos/core#3606](https://github.com/vmangos/core/pull/3606): fix C++ compilation with OpenSSL 4.0+ where `OPENSSL_atexit` was removed
 
 **Open pull requests**
-- [ConduitIO/conduit#3391](https://github.com/ConduitIO/conduit/pull/3391): restore deleted `processor.Service` instance in `deleteProcessorAction.Rollback` during provisioning
 - [projectcapsule/capsule#2325](https://github.com/projectcapsule/capsule/pull/2325): key `GlobalTenantResource` generator origins per target occurrence and migrate legacy positional SSA field managers in place
 - [OpenCTI-Platform/connectors#8633](https://github.com/OpenCTI-Platform/connectors/pull/8633): bound Shodan indicator search host enrichment and STIX bundle size for playbooks
 - [restatedev/restate#6052](https://github.com/restatedev/restate/pull/6052): prevent backward clock steps across restarts from holding yielded or ASAP virtual-queue invocations
