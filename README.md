@@ -43,4 +43,4 @@ Query engines, analytical databases, storage/WAL internals, and developer toolin
 
 ### Contact
 - **Email:** saidyagmur@gmx.com
-- Available for **async B2B engineering contracts** and technical systems work. You can also open an issue or reach out through GitHub.
+- Open to **B2B backend & database engineering contracts** (async-first workflow via GitHub/Slack, flexible on retainers or per-PR/milestone scopes). Feel free to reach out via email.
