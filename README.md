@@ -42,5 +42,5 @@ Software and database engineer based in Türkiye. I work mostly with **C#, Pytho
 Query engines, analytical databases, storage/WAL internals, and developer tooling.
 
 ### Contact
-- **Email:** saidyagmur@gmx.com
+- **Email:** omersaidyagmur@gmail.com
 - Open to **B2B backend & database engineering contracts** (async-first workflow via GitHub/Slack, flexible on retainers or per-PR/milestone scopes). Feel free to reach out via email.
