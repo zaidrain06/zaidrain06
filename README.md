@@ -5,6 +5,7 @@ Software and database engineer based in Türkiye. I work mostly with **C#, Pytho
 ### Open source
 
 **Merged & Credited**
+- [GreptimeTeam/greptimedb#10710](https://github.com/GreptimeTeam/greptimedb/pull/10710): retain non-key partition columns across DataFusion DML delete projection and `Deleter::trim_columns` on value-partitioned metric and mito tables
 - [ConduitIO/conduit#3373](https://github.com/ConduitIO/conduit/pull/3373): restore deleted `processor.Service` instance on failed DB transaction rollback without re-dispensing plugins or panicking discarded transactions
 - [open-telemetry/opentelemetry-collector-contrib#53463](https://github.com/open-telemetry/opentelemetry-collector-contrib/pull/53463): fix concurrent map read/write data race in `StandardFunctionGetter.Get` (`pkg/ottl`)
 - [duckdb/duckdb#28563](https://github.com/duckdb/duckdb/pull/28563): fix for `contains(list_column, '')` returning true for lists that do not contain the value
@@ -15,7 +16,6 @@ Software and database engineer based in Türkiye. I work mostly with **C#, Pytho
 
 **Open pull requests**
 - [maximhq/bifrost#10597](https://github.com/maximhq/bifrost/pull/10597): accept 2xx OAuth token endpoint responses carrying a valid `access_token` for upstream MCP `client_credentials` providers (such as CrowdStrike Falcon `201 Created`)
-- [GreptimeTeam/greptimedb#10710](https://github.com/GreptimeTeam/greptimedb/pull/10710): retain non-key partition columns across DataFusion DML delete projection and `Deleter::trim_columns` on value-partitioned metric and mito tables
 - [galaxy-io/filament#832](https://github.com/galaxy-io/filament/pull/832): emit shared worker liveness heartbeats, mount control-plane reaper under worker dispatch, and add `filament run cancel <run-id>`
 - [nats-io/nats-server#8948](https://github.com/nats-io/nats-server/pull/8948): bound JetStream `FileStore` selective wildcard block scans via `SubjectTree.MatchUntilBounded` and cache lookahead
 - [qdrant/qdrant#11776](https://github.com/qdrant/qdrant/pull/11776): bound HNSW `GraphLayers.search` to snapshot point counts under concurrent append-only mutations
