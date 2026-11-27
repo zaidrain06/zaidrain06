@@ -14,6 +14,10 @@ Software and database engineer based in Türkiye. I work mostly with **C#, Pytho
 - [vmangos/core#3606](https://github.com/vmangos/core/pull/3606): fix C++ compilation with OpenSSL 4.0+ where `OPENSSL_atexit` was removed
 
 **Open pull requests**
+- [GreptimeTeam/greptimedb#10710](https://github.com/GreptimeTeam/greptimedb/pull/10710): retain non-key partition columns across DataFusion DML delete projection and `Deleter::trim_columns` on value-partitioned metric and mito tables
+- [galaxy-io/filament#832](https://github.com/galaxy-io/filament/pull/832): emit shared worker liveness heartbeats, mount control-plane reaper under worker dispatch, and add `filament run cancel <run-id>`
+- [nats-io/nats-server#8948](https://github.com/nats-io/nats-server/pull/8948): bound JetStream `FileStore` selective wildcard block scans via `SubjectTree.MatchUntilBounded` and cache lookahead
+- [qdrant/qdrant#11776](https://github.com/qdrant/qdrant/pull/11776): bound HNSW `GraphLayers.search` to snapshot point counts under concurrent append-only mutations
 - [inngest/inngest#5333](https://github.com/inngest/inngest/pull/5333): fix data race on `queueProcessor.roles` between `configureScannerRoles` and `ActiveRoles`
 - [lancedb/lancedb#5239](https://github.com/lancedb/lancedb/pull/5239): pass `gemini-text` `retrieval_document` title via `EmbedContentConfig` instead of embedding placeholder text into document vectors
 - [projectcapsule/capsule#2325](https://github.com/projectcapsule/capsule/pull/2325): key `GlobalTenantResource` generator origins per target occurrence and migrate legacy positional SSA field managers in place
