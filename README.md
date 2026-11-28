@@ -44,3 +44,5 @@ Query engines, analytical databases, storage/WAL internals, and developer toolin
 ### Contact
 - **Email:** omersaidyagmur@gmail.com
 - Open to **B2B backend & database engineering contracts** (async-first workflow via GitHub/Slack, flexible on retainers or per-PR/milestone scopes). Feel free to reach out via email.
+
+- **[`PrefectHQ/prefect#24125`](https://github.com/PrefectHQ/prefect/pull/24125)** — Strict top-level JSON body key validation (`extra="forbid"` + OpenAPI `additionalProperties: false`) across `/filter`, `/count`, and `/paginate` endpoints & `WorkQueueFilter` wiring on `/flows/*` *(Python / FastAPI / SQLAlchemy)*
