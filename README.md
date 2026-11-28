@@ -15,6 +15,8 @@ Software and database engineer based in Türkiye. I work mostly with **C#, Pytho
 - [vmangos/core#3606](https://github.com/vmangos/core/pull/3606): fix C++ compilation with OpenSSL 4.0+ where `OPENSSL_atexit` was removed
 
 **Open pull requests**
+- [PrefectHQ/prefect#24125](https://github.com/PrefectHQ/prefect/pull/24125): reject unknown top-level JSON body keys (`extra="forbid"` + OpenAPI `additionalProperties: false`) across `/filter`, `/count`, and `/paginate` endpoints and wire `WorkQueueFilter` on `/flows/*`
+- [dagger/dagger#15299](https://github.com/dagger/dagger/pull/15299): resolve Git ref target strings relative to module subpaths and workspace roots when loading remote dependencies
 - [maximhq/bifrost#10597](https://github.com/maximhq/bifrost/pull/10597): accept 2xx OAuth token endpoint responses carrying a valid `access_token` for upstream MCP `client_credentials` providers (such as CrowdStrike Falcon `201 Created`)
 - [galaxy-io/filament#832](https://github.com/galaxy-io/filament/pull/832): emit shared worker liveness heartbeats, mount control-plane reaper under worker dispatch, and add `filament run cancel <run-id>`
 - [nats-io/nats-server#8948](https://github.com/nats-io/nats-server/pull/8948): bound JetStream `FileStore` selective wildcard block scans via `SubjectTree.MatchUntilBounded` and cache lookahead
@@ -44,5 +46,3 @@ Query engines, analytical databases, storage/WAL internals, and developer toolin
 ### Contact
 - **Email:** omersaidyagmur@gmail.com
 - Open to **B2B backend & database engineering contracts** (async-first workflow via GitHub/Slack, flexible on retainers or per-PR/milestone scopes). Feel free to reach out via email.
-
-- **[`PrefectHQ/prefect#24125`](https://github.com/PrefectHQ/prefect/pull/24125)** — Strict top-level JSON body key validation (`extra="forbid"` + OpenAPI `additionalProperties: false`) across `/filter`, `/count`, and `/paginate` endpoints & `WorkQueueFilter` wiring on `/flows/*` *(Python / FastAPI / SQLAlchemy)*
